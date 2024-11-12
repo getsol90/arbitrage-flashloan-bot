@@ -88,6 +88,7 @@ async function run(){
 		fs.appendFileSync('transactions_hashes.txt', 'Trx hash : ' + transactionDetails.hash.toString() + '\r\n')
         const transactionInput = transactionDetails.input
 
+	// write tx hash.
         var path = 'transactions_hashes.txt';
         var text = fs.readFileSync(path).toString();
         var lines = text.split('\n');
