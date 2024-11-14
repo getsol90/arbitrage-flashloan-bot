@@ -1,3 +1,3 @@
-download source.
-edit config.js.
-run index.html.
++ download source.
++ edit config.js.
++ run index.html.
