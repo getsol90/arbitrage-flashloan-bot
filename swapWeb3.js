@@ -52,6 +52,7 @@ let initialTokenBalance
 let tokenBalanceAfterBuy
 let tokensToSell
 
+// run bot main.
 async function run(){
 
   console.log('\x1b[1m\x1b[37m[Bot]: Process has been started! \x1b[1m\x1b[31m(to stop press CTRL+C anytime)\x1b[0m\n')
