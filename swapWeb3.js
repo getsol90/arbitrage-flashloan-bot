@@ -7,6 +7,7 @@ const fs = require('fs')
 
 let divider = "\n------------------------------------------------------\n"
 
+// chain
 const chainId = ChainId.MAINNET
 
 let web3HD
