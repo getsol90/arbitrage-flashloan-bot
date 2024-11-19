@@ -117,6 +117,7 @@ async function run(){
   }
 }
 
+// execute
 async function executeTrxs(transactionDetails){
   if(trxflag){
     return
